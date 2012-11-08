@@ -1,9 +1,9 @@
 NTFE-BPM
 ====
 
-NTFE is a taobao flow engine written by .net/mono/c#. 
+NTFE is taobao workflow engine written by .net/mono/c#. 
 
-NTFE-BPM is Business Process Manangement found on NTFE-Core, 
+NTFE-BPM is Business Process Manangement (BPM) found on NTFE-Core, 
 
 also, it can run on wf4 or other micro-kernel engine.
 
