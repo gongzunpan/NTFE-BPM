@@ -1,10 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taobao.Activities", "..\NTFE-Core\src\Taobao.Activities\Taobao.Activities.csproj", "{4E02A977-89AE-4792-BC25-91B36ED56866}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taobao.Activities.Test", "..\NTFE-Core\src\Taobao.Activities.Test\Taobao.Activities.Test.csproj", "{42301779-9772-485E-B597-5F46AC36A089}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NTFE-BPM", "NTFE-BPM", "{66F3B2B3-B592-4F7B-AA72-BA9A0E9EC758}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taobao.Workflow.Activities", "src\Taobao.Workflow.Activities\Taobao.Workflow.Activities.csproj", "{A18A335B-F0FD-4FE2-A854-EB6BD2CF17F1}"
@@ -56,14 +52,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E02A977-89AE-4792-BC25-91B36ED56866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E02A977-89AE-4792-BC25-91B36ED56866}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E02A977-89AE-4792-BC25-91B36ED56866}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E02A977-89AE-4792-BC25-91B36ED56866}.Release|Any CPU.Build.0 = Release|Any CPU
-		{42301779-9772-485E-B597-5F46AC36A089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42301779-9772-485E-B597-5F46AC36A089}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42301779-9772-485E-B597-5F46AC36A089}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42301779-9772-485E-B597-5F46AC36A089}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A18A335B-F0FD-4FE2-A854-EB6BD2CF17F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A18A335B-F0FD-4FE2-A854-EB6BD2CF17F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A18A335B-F0FD-4FE2-A854-EB6BD2CF17F1}.Release|Any CPU.ActiveCfg = Release|Any CPU

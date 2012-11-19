@@ -50,6 +50,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Taobao.Activities">
+      <HintPath>..\..\lib\Taobao.Activities.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Container.cs" />
@@ -65,10 +68,6 @@
     <Compile Include="WorkflowParser.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\NTFE-Core\src\Taobao.Activities\Taobao.Activities.csproj">
-      <Project>{4e02a977-89ae-4792-bc25-91b36ed56866}</Project>
-      <Name>Taobao.Activities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Taobao.Workflow.Activities.Client\Taobao.Workflow.Activities.Client.csproj">
       <Project>{3102C63F-1AFE-4B91-8027-B5E2DEBDE872}</Project>
       <Name>Taobao.Workflow.Activities.Client</Name>

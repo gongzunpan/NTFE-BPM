@@ -78,6 +78,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Taobao.Activities">
+      <HintPath>..\..\lib\Taobao.Activities.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
@@ -124,10 +127,6 @@
     <Compile Include="SchedulerResumptionTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\NTFE-Core\src\Taobao.Activities\Taobao.Activities.csproj">
-      <Project>{4e02a977-89ae-4792-bc25-91b36ed56866}</Project>
-      <Name>Taobao.Activities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Taobao.Workflow.Activities.Application\Taobao.Workflow.Activities.Application.csproj">
       <Project>{99801043-80A6-4818-96D3-5989500C3F3F}</Project>
       <Name>Taobao.Workflow.Activities.Application</Name>

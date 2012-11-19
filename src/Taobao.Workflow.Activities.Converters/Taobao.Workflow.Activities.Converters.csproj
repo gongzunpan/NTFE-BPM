@@ -41,6 +41,9 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Taobao.Activities">
+      <HintPath>..\..\lib\Taobao.Activities.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConverterBase.cs" />
@@ -57,10 +60,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\NTFE-Core\src\Taobao.Activities\Taobao.Activities.csproj">
-      <Project>{4e02a977-89ae-4792-bc25-91b36ed56866}</Project>
-      <Name>Taobao.Activities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Taobao.Workflow.Activities.Designer.Statements\Taobao.Workflow.Activities.Designer.Statements.csproj">
       <Project>{39D20162-DF3B-47A0-87AC-A166C7F4E458}</Project>
       <Name>Taobao.Workflow.Activities.Designer.Statements</Name>
